@@ -7,11 +7,12 @@ def solution(a)
   return -1 if stack.empty?
 
   b = [] + a
-  candidiate = stack.pop
   a.delete(candidiate)
-  leaderLength = b.length - a.length
 
   return 0 if a.length == 0
+
+  candidiate = stack.pop
+  leaderLength = b.length - a.length
 
   if leaderLength - a.length > 0
     return b.find_index(candidiate)
