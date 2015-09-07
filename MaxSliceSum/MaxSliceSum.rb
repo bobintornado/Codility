@@ -6,5 +6,3 @@ def solution(a)
   end
   return max_slice
 end
-
-solution(  [3, 2, -6, 4, 0] )
