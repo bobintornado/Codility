@@ -1,6 +1,6 @@
 #Reasoning
 
-This is the implementation of a classical Kadane's algorithm. 
+This is the implementation of a classical Kadane's algorithm with some tweaks, which handle negative values and single element input (assuming the algorithm couldn't return empty array).
 
 For anyone read this algorithm, it's obvious that the key thing step is the the step to determine the max_ending at every element and when to make the `jump`. 
 
